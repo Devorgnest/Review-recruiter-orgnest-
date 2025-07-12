@@ -1,0 +1,447 @@
+/* .recruiter-review-container {
+    padding: 30px 60px;
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .recruiter-heading {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+  }
+  
+  .dropdown-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .dropdown-row label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+  }
+  
+  .dropdown {
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    min-width: 200px;
+  }
+  
+  .readonly-combined-box {
+    background-color: #f5f8fa;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    padding: 12px 16px;
+    font-size: 16px;
+    color: #333;
+    margin: 20px 0;
+    line-height: 1.5;
+  }
+  
+  .readonly-combined-box p {
+    margin: 6px 0;
+  }
+  
+  .description-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .description-section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 18px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+  }
+  
+  .description-section h4 {
+    margin-bottom: 10px;
+  }
+  
+  .description-section p {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+  }
+   */
+
+   .external-review-container {
+    /* Previous css (before changing the css to same as admin) */
+    /* padding: 20px 40px;
+    font-family: Arial, sans-serif;
+    max-width: 1350px;
+    margin: 0 auto; */
+
+    padding: 10px 60px 30px 60px;
+    font-family: Arial, sans-serif;
+    max-width: 1350px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .page-heading {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+  }
+  
+  .dropdown-group {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start; 
+    flex-wrap: wrap;
+    gap: 20px; 
+    max-width: 100%;
+    /* margin-bottom: 20px; */
+
+  }
+  
+  .dropdown-group > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+   .dropdown-group-2{
+    border: none;
+  }
+
+   .combined-dropdown-group{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    /* flex-direction: row; */
+    
+
+  }
+  /* .edit-button-wrapper {
+    display: flex;
+    align-items: flex-end; 
+    padding-top: 18px; 
+  }
+  
+  .edit-button-wrapper .edit-button {
+    margin-top: 8px;
+  } */
+
+  label {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .dropdown {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    min-width: 240px;
+  }
+
+  .profile-dropdown {           /*Select Job profile Dropdown*/
+    flex: 1;
+    /* all: unset; */
+  }
+
+  .profile-dropdown label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+  }
+
+ 
+  
+  .job-description-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .job-description-header h3 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .edit-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .edit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .description-section {
+    /* background-color: #ffffff;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px; */
+    width: 80vw;
+      max-width: 100%;
+      box-sizing: border-box;
+      background-color: #ffffff;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 6px;
+      box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+      min-height: 150px; 
+  }
+
+  .description-section textarea {
+      max-width: 100%;
+      height:auto;
+      padding: 10px;
+      font-family: inherit;
+      font-size: 14px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      resize: vertical;
+      box-sizing: border-box;
+    }
+
+    .description-section p {
+      margin: 0;
+      font-size: 15px;
+      color: #333;
+      line-height: 1.6;
+      text-align: justify;
+    }
+
+  .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .section-header h4 {
+    margin: 0;
+  }
+  
+  .section-edit-button {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  
+  .section-edit-button:hover {
+    background-color: #94a3b8;
+  }
+  
+  .editable-textarea {
+    width: 80vw;
+    max-width: 100%;
+    overflow: auto;
+    min-height: 150px;
+    max-height: 400px;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    resize: vertical;
+    margin-top: 8px;
+    font-family: Arial, sans-serif;
+    text-align: justify;
+  }
+  
+  .save-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .save-button:hover {
+    background-color: #218838;
+  }
+  
+  /* Update - 1 */
+
+  .approve-button-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-start; 
+    padding-left: 0;
+  }
+  
+  
+  .approve-button {
+    padding: 12px 28px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .approve-button:hover {
+    background-color: #218838;
+  }
+  
+
+
+  .readonly-combined-box {
+    background-color: #ffffff;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    padding: 14px 12px;
+    font-size: 16px;
+    color: #333;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+  
+    display: flex;
+    gap: 30px;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin-top: 16px;
+    margin-bottom: 10px;
+
+    flex-wrap: wrap;
+    word-break: break-word;
+  }
+  .readonly-combined-box p {
+    margin: 0;
+  }
+
+
+  .generate-btn-group {
+    display: flex;
+    gap: 12px;
+    margin-top: 10px;
+  }
+  
+  .generate-btn-group button {
+    background-color: #6c757d;
+    color: white;
+    font-size: 13px;
+    padding: 6px 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .generate-btn-group button:hover {
+    background-color: #5a6268;
+  }
+
+
+
+  
+
+/* HEADER AND FOOTER */
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  overflow-x: hidden;
+  height: 100%;
+
+}
+
+
+.external-page-wrapper {
+    /* display: flex;
+    flex-direction: column; */
+    max-width: 1350px;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+
+    
+    
+    
+  }
+
+  
+  .external-header {
+    width: 100vw;
+  background-color: #f9f9f9;
+  overflow: hidden;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  }
+  
+  .header-photo {
+    width: 1538px; 
+    height: 148px ;
+    padding: 0;
+    display: block;
+    margin: 0 auto; 
+    object-fit: cover;
+    background: none;
+    box-sizing: border-box;
+    
+  }
+  
+  .external-footer {
+
+    /* background-color: #f9f9f9;
+    text-align: center;
+    padding: 18px ;
+    margin-top: auto;
+    font-size: 14px; */
+
+    /* width: 100%; */
+    /* width: 100vw;
+    margin: 0;
+    box-sizing: border-box; */
+    /* border-top: 1px solid #ccc; */
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 18px ;
+    margin-top: auto;
+    font-size: 14px;
+    width: 100vw;
+    margin: 0;
+    box-sizing: border-box;
+
+    
+  }
+  
+  .footer-logo {
+    height: 40px;
+    margin-bottom: 8px;
+  }
+  
+  .external-footer a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .external-footer a:hover {
+    text-decoration: underline;
+  }
+
+  
